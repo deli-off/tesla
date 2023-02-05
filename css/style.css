@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    white-space: nowrap;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 100px;
+}
+
+
+.koleso__one {
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 300px;
+    top: 330px;
+    animation: 1s linear 0s normal none infinite running rot
+} 
+
+.koleso__two {
+    position: absolute;
+    border-radius: 100%;
+    animation: 1s linear 0s normal none infinite running rot;
+    margin-left: 780px;
+    top: 330px;
+}
+
+.tesla__img {
+    overflow: hidden;
+    cursor: pointer;
+    transition: 5s ease;
+}
+
+.tesla {
+    transition: 10s ease;
+}
+
+.tesla__img:active {
+    transform: scale(8);
+}
+
+
+@keyframes rot {
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+    transform: rotate(0deg);
+    }
+}
+
+.two {
+    display: none;
+}
+
+.stock__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.stock__type {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+}
+
+
+.price__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #707070;
+}
+
+.price__type {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+}
+
+.characters {
+    display: flex;
+    gap: 115px;
+    justify-content: center;
+    transition:  .5s ease;
+}
+
+.characters {
+    margin-top: 80px;
+}
+
+.functional {
+    display: flex;
+    gap: 100px;
+    margin-top: 75px;
+}
+
+.speed__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+}
+
+.speed__type,.speed__type2 {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+ 
+.speed {
+    display: flex;
+    align-items: center;
+}
+
+.speed__arrows {
+    margin-left: 50px;
+}
+
+.speed__arrows img{
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.deg__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+}
+
+.deg__type {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+ 
+.deg {
+    display: flex;
+    align-items: center;
+}
+
+.deg__arrows {
+    margin-left: 50px;
+}
+
+.deg__arrows img{
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+.disk__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+}
+
+.disk__type {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+ 
+.disk {
+    display: flex;
+    align-items: center;
+}
+
+.disk__arrows {
+    margin-left: 50px;
+}
+
+.disk__arrows img{
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.conditionary__title {
+    font-family: 'Gilroy';
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+    margin-bottom: 15px;
+}
+
+.long__title {
+    font-family: 'Gilroy';
+    font-style: normal; 
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+    margin-bottom: 15px;
+}  
+
+.notific {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    opacity: 0;
+}
+
+.functional {
+    opacity: 1;
+}
+
+.color__title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+}
+
+.black {
+    padding: 20px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.grey {
+    padding: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    display: flex;
+    width: 30px;
+    height: 30px; 
+}
+
+.white {
+    padding: 20px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    width: 30px;
+    height: 30px; 
+}
+
+.color__checks {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.color__checks span {
+    cursor: pointer;
+}
+
+.color__checks span:hover {
+    border: 2px solid black;
+}
+
+.functional {
+
+    white-space: nowrap;
+}
+
+.notific {
+    gap: 100px;
+    margin: 0  auto;
+    display: flex;
+    opacity: 0;
+    margin-top: 100px;
+}
+
+.off-btn {
+    cursor: pointer;
+}
+
