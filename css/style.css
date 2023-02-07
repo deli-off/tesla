@@ -18,8 +18,8 @@ h2 {
 .koleso__one {
     position: absolute;
     border-radius: 100%;
-    margin-left: 300px;
-    top: 330px;
+    margin-left: 312px;
+    top: 340px;
     animation: 1s linear 0s normal none infinite running rot
 } 
 
@@ -27,22 +27,14 @@ h2 {
     position: absolute;
     border-radius: 100%;
     animation: 1s linear 0s normal none infinite running rot;
-    margin-left: 780px;
-    top: 330px;
+    margin-left: 792px;
+    top: 340px;
 }
 
-.tesla__img {
-    overflow: hidden;
-    cursor: pointer;
-    transition: 5s ease;
-}
+
 
 .tesla {
     transition: 10s ease;
-}
-
-.tesla__img:active {
-    transform: scale(8);
 }
 
 
@@ -299,10 +291,28 @@ h2 {
     margin: 0  auto;
     display: flex;
     opacity: 0;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .off-btn {
     cursor: pointer;
 }
 
+.tesla__img {
+    position: relative;
+}
+
+.door {
+    cursor: pointer;
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 40%;
+    top: 40%;
+    border-radius: 10px;
+    transform: skew(-190deg);
+}
+
+.off {
+    cursor: pointer;
+}
